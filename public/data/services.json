@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "title": "SaaS Dev",
+    "description": "End-to-end architecture and development of scalable Software as a Service platforms. Utilizing modern stacks to ensure high availability and multi-tenant security.",
+    "icon": "cloud"
+  },
+  {
+    "id": "02",
+    "title": "Landing Pages",
+    "description": "High-conversion, performant landing pages engineered with precision. Focusing on core web vitals and semantic HTML for optimal SEO and user engagement.",
+    "icon": "web"
+  },
+  {
+    "id": "03",
+    "title": "Automations",
+    "description": "Streamlining complex business workflows through custom scripts and API integrations. Reducing manual overhead and increasing operational efficiency.",
+    "icon": "smart_toy"
+  },
+  {
+    "id": "04",
+    "title": "AI Models",
+    "description": "Integration and fine-tuning of Large Language Models and custom machine learning pipelines to solve specific domain problems and enhance product capabilities.",
+    "icon": "psychology"
+  },
+  {
+    "id": "05",
+    "title": "Research Help",
+    "description": "Deep technical research and feasibility studies for emerging technologies. Providing actionable insights to guide architectural decisions.",
+    "icon": "science"
+  }
+]

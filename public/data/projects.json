@@ -1,0 +1,35 @@
+[
+  {
+    "id": "01",
+    "title": "StockNet",
+    "year": "2023",
+    "description": "A real-time financial market analyzer leveraging deep learning to predict volatility in high-frequency trading environments. Architected with high-throughput data pipelines and sub-millisecond inference.",
+    "tags": ["PyTorch", "FastAPI", "Redis", "AWS Kinesis"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB6GII5lC0DGdY7wuhpvLCBFPggrioSt6kMa_RWWqs43OPyCgAxlhbPqTnbdfNvQUfuhNRESQQLuRJAJCe6eaD6Pdb6Y33yx0133v6IRvCzZc2ZPkI43c09uqeiNDCwOJdUcNg_D37Xi2WdqDihtbIyPj0pJbwJ0HnKkMgwXUlMLWClwbJ66J6qFQFZ7HDcKWUdD2pXUZ_82soHOs5lVsOgPbnjlvZGuWIbk6Ules8z9gGeQZebOs2FBIz2G12GlGU-XcteiTBTIFYC",
+    "url": "#",
+    "sourceUrl": "#",
+    "featured": true
+  },
+  {
+    "id": "02",
+    "title": "EventOps",
+    "year": "2022",
+    "description": "Scalable event-driven orchestration layer for enterprise logistics. Processes millions of telemetry events per second with guaranteed delivery and dynamic resource scaling in multi-cloud environments.",
+    "tags": ["AWS Kinesis", "Kubernetes", "Go"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB8dfWyG50orWNrk2A3Z_MheQYrfvUuU5xan1WQc5CkdgtVALsSZxq6f-BNvrhaflD67qSFYuTP_wbvFFbDAL1iW_Wr5ufH4HzuSVgAveNd8N_Zk-mR7rtACTy9EwPjkYqOtH62EqRQXZjtefoFNdLeET_uKE4gqzAWk4Hd_oPH80QQiVMs2OpBrYbkzJ9QVHkX3qlormGWjkXOsG4T82p3QJ8bVqp9OKVp9nXx8zyGdbBrEFIJN7AAFxcbdjDCGtbEVr1btXm920Ii",
+    "url": "#",
+    "sourceUrl": "#",
+    "featured": true
+  },
+  {
+    "id": "03",
+    "title": "OCR Pipeline",
+    "year": "2024",
+    "description": "Automated document intelligence engine that transforms unstructured legal documents into structured data clusters. Utilizing custom OCR models and NLP for entity recognition and relationship mapping.",
+    "tags": ["Computer Vision", "Docker", "Python"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBPSt03vEEuJM71QjCnKmo7w3PH5MtjxPwqPUJ69iv9d7a1tk5pdHrgRoWZAZz7LEOGD00NFNQ2RRCt2kYe_ULdSd2nwZoB8qVrX0Ifitp9GYZnab3jT3dvi7ozCpLdFMHTchtOjHD1WNjSWrCar-DqVxKPivZWE7lc6lgr4eobubA3-OKIZ6wi3BWFwwl_G0EDv-MF3WM2bwCYZrUkH-FuzcabUiBY1G5KL-1z2Fa9d2XEUCJ7nBovu_B1Blos1G9hNBOuivxvPeww",
+    "url": "#",
+    "sourceUrl": "#",
+    "featured": true
+  }
+]

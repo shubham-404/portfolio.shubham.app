@@ -1,0 +1,20 @@
+[
+  {
+    "id": "interest-1",
+    "title": "Cloud & DevOps",
+    "icon": "cloud",
+    "description": "Architecting scalable cloud infrastructure and implementing robust CI/CD pipelines to ensure seamless deployment and operational efficiency."
+  },
+  {
+    "id": "interest-2",
+    "title": "Machine Learning",
+    "icon": "psychology",
+    "description": "Exploring predictive modeling and deep learning to build intelligent systems capable of analyzing complex data sets and driving automated insights."
+  },
+  {
+    "id": "interest-3",
+    "title": "Backend Dev",
+    "icon": "database",
+    "description": "Designing resilient APIs and managing high-performance databases to support demanding front-end applications and complex business logic."
+  }
+]

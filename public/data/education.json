@@ -1,0 +1,21 @@
+[
+  {
+    "id": "01",
+    "institution": "The National Institute of Engineering",
+    "period": "2023 — 2027",
+    "degree": "B.E. IN INFORMATION SCIENCE",
+    "gpa": "GPA: 9.0 (Expected)",
+    "tags": ["GPA: 9.0 (Expected)", "AIML Club Organizer"],
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDdaZcc9ALB9CmjG0vjyLSalQ5i4bUxgpTyHQq6LcUKbA3Fuqz8GCKEysW9mV84CoM3Aet2MwO1vTbS-k5sjTRo9xOj3gAkQnWj418vciZL3uO9YQrPai_0dByTZitB4683yGfhoJxWNz77dcXuQeWudec2f200xAKV9H6TIELN3PZmIdqttMpLLx_zTOQTnLGsgasFfEoY0sH-3H76fUnt5ZbuYZg9NpC-1-RnNmvFdQQDkQV1Q6WdMHwKAeenlz000psfRtDpoQ8I",
+    "description": "Focusing on high-concurrency systems, algorithmic efficiency, and the integration of machine learning models into enterprise-grade software architectures. Active lead and organizer of the campus AIML Club, orchestrating community tech initiatives."
+  },
+  {
+    "id": "02",
+    "institution": "Kendriya Vidyalaya COD Chheoki",
+    "period": "Completed",
+    "degree": "HIGH SCHOOL | SCIENCE PCM",
+    "gpa": "",
+    "tags": ["Physics", "Chemistry", "Mathematics"],
+    "description": "Completed a rigorous curriculum centered on Physics, Chemistry, and Advanced Mathematics, laying the foundational analytical skills required for complex problem-solving in software engineering."
+  }
+]
