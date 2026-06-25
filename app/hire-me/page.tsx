@@ -99,8 +99,8 @@ export default function HireMeView() {
           {/* High contrast structural architectural background block */}
           <div className="w-full aspect-[4/3] border border-outline-variant overflow-hidden select-none bg-surface-container-highest">
             <img 
-              className="w-full h-full object-cover grayscale contrast-125" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhbjWg8IXHuQTyouhVraIcec4bcNGi2AC9VB4bQOQ9EJKBPrrpiFcgrl3q5ltVB3a9qiHZuuhNPva_r8bLA57Xxjb4UE97gRXve_VdddxC4vnqfh9T2NcGODdgG5pcBQaxVjVC3yhE4nIu0S16IkBRK8Y2YJsYfQcpvkVWlAo-Nt6Qh4zq73xa4E5oQi2Eewm840cuoEmZDjj_Cia_FDDoQdrntLv4SbIzNJ5SkVGRvTpI5ePXNyEBz94_VDCivu40IhrZpwaGpIL0" 
+              className="w-full h-full object-cover grayscale object-bottom" 
+              src="/images/contact.webp" 
               alt="Concrete architectural patterns in India" 
             />
           </div>
