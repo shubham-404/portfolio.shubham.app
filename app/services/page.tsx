@@ -53,8 +53,8 @@ export default function ServicesView({ onChangeView }: ServicesViewProps) {
     >
       {/* Title Header */}
       <section className="border-b border-outline-variant pb-12">
-        <span className="font-display text-xs uppercase tracking-widest text-secondary block mb-2">What I Do</span>
-        <h1 className="font-display text-5xl sm:text-7xl md:text-8xl uppercase tracking-tighter text-on-surface">
+        <span className="ml-2 font-display text-xs uppercase tracking-widest text-secondary block mb-2">What I Do</span>
+        <h1 className="font-display text-5xl sm:text-7xl md:text-8xl uppercase font-bold tracking-tighter text-on-surface">
           Services
         </h1>
       </section>

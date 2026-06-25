@@ -77,15 +77,15 @@ useEffect(() => {
       {/* Profile Bio Section */}
       <section className="grid grid-cols-1 md:grid-cols-12 gap-y-8 md:gap-x-12 border-b border-outline-variant pb-16">
         <div className="col-span-12 md:col-span-4">
-          <p className="font-display text-xs text-outline uppercase tracking-widest mb-2">01 // Identity</p>
-          <h2 className="font-display text-5xl font-bold tracking-tighter uppercase text-primary">BIO</h2>
+          <p className="ml-2 font-display text-xs text-outline uppercase tracking-widest mb-2">// Identity</p>
+          <h2 className="font-display text-5xl sm:text-7xl md:text-8xl uppercase text-primary tracking-tighter text-on-surface">BIO</h2>
         </div>
         <div className="col-span-12 md:col-span-8 flex flex-col justify-center">
           <p className="font-sans text-lg text-on-surface-variant leading-relaxed mb-6">
-            I am a software engineer and student at <span className="text-on-surface font-bold">The National Institute of Engineering (NIE)</span>. My focus lies in building scalable software systems that address complex real-world challenges.
+            I am a software developer in making with a passion for creating innovative solutions and help organizations achieve their goals through technology. My expertise lies in web-based development, AI models, Automations and Research works.
           </p>
           <p className="font-sans text-base text-on-surface-variant leading-relaxed">
-            As the lead of the <span className="text-primary font-bold underline decoration-1 underline-offset-4">AIML Club</span>, I orchestrate technical initiatives that bridge the gap between academic theory and industry application, fostering a community of innovation and high-performance engineering on campus.
+            As the Operations lead of <span className="text-primary font-bold decoration-1 underline-offset-4">Anveshan - The Applied Research & AIML club</span>, I orchestrate technical initiatives that bridge the gap between academic theory and industry application, fostering a community of innovation and high-performance engineering on campus.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ useEffect(() => {
       {/* Education Section */}
       <section className="space-y-12">
         <div>
-          <p className="font-display text-xs text-outline uppercase tracking-widest mb-2">02 // Pedigree</p>
+          <p className="font-display text-xs text-outline uppercase tracking-widest mb-2">// Journey</p>
           <h2 className="font-display text-4xl sm:text-5xl font-bold uppercase tracking-tight text-on-surface italic">
             Education
           </h2>
@@ -106,7 +106,7 @@ useEffect(() => {
               {item.image && (
                 <div className="w-full h-48 overflow-hidden border border-outline-variant">
                   <img
-                    className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-700"
+                    className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-700 object-bottom"
                     src={item.image}
                     alt={item.institution}
                   />
@@ -170,8 +170,8 @@ useEffect(() => {
             {/* Architectural decorative asset */}
             <div className="hidden md:block aspect-[4/3] w-full border border-outline-variant overflow-hidden select-none">
               <img
-                className="w-full h-full object-cover grayscale"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaAu5IKRe6V9WFxyW6T1naMA-r2dKi0np-KKcpfOfvGpmeK-WUvwvpifO-nOt7R4-V9w3NV0G6JoXS2Vzi-Qj-J_S98OI2UO2lNlvIaFkJ5e1V0qc1XSOaehEdzgm0DODpQWQpFcOH4sJwfbe9ssqhAmcNRBfRCMIccXGXNtEzmvoN5T8pJB1HxaI1cnrRb1ftgXwT3wwk9-COJb4NAAPBZJIv3KHPqNIAAg5-m_yReSiSk3zXgQtN3w4tF58_pSaS2EHTc3nk2Jsl"
+                className="w-full h-full object-cover grayscale contrast-125"
+                src="/images/interests.webp"
                 alt="Minimalist abstract generative grid"
               />
             </div>

@@ -3,18 +3,18 @@
     "id": "interest-1",
     "title": "Cloud & DevOps",
     "icon": "cloud",
-    "description": "Architecting scalable cloud infrastructure and implementing robust CI/CD pipelines to ensure seamless deployment and operational efficiency."
+    "description": "There's something satisfying about turning a project into a production-ready system. When it all comes together with cloud, automation, and deployment pipelines, it feels especially rewarding."
   },
   {
     "id": "interest-2",
     "title": "Machine Learning",
     "icon": "psychology",
-    "description": "Exploring predictive modeling and deep learning to build intelligent systems capable of analyzing complex data sets and driving automated insights."
+    "description": "I'm fascinated by how machines can learn from data and make predictions. I enjoy exploring different algorithms and techniques, and applying them to real-world problems to see what works best."
   },
   {
     "id": "interest-3",
     "title": "Backend Dev",
     "icon": "database",
-    "description": "Designing resilient APIs and managing high-performance databases to support demanding front-end applications and complex business logic."
+    "description": "This is where my interest in development began. Discovering what happens behind the scenes of a website got me hooked. I enjoy building reliable and scalable backends that can handle real users and real traffic."
   }
 ]

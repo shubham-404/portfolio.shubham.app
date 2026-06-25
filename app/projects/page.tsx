@@ -55,8 +55,8 @@ export default function ProjectsView() {
       <section className="border-b border-outline-variant pb-12">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="max-w-xl space-y-4">
-            <span className="font-display text-xs uppercase tracking-widest text-primary block">
-              Archive 2024
+            <span className="ml-2 font-display text-xs uppercase tracking-widest text-primary block">
+              Archive 2025-26
             </span>
             <h1 className="font-display text-5xl sm:text-7xl md:text-8xl font-bold uppercase tracking-tight text-on-surface leading-none">
               SELECTED<br />PROJECTS
