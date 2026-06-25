@@ -10,17 +10,18 @@ export default function Footer({ onChangeView }: FooterProps) {
   const socialLinks = [
     { label: 'Github', url: 'https://github.com/shubham-404', icon: 'code' },
     { label: 'Email', url: 'mailto:shubh.shubhamkrsingh@gmail.com', icon: 'mail' },
-    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/shubham-k-singh', icon: 'link' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/shubham-404-', icon: 'link' },
+    { label: 'Resume', url: '/files/Shubham_modern_ml.pdf', icon: 'doc' },
   ];
 
   return (
-    <footer className="bg-surface-container-low border-t border-outline-variant flex flex-col md:flex-row justify-between items-center w-full px-6 md:px-16 py-10 gap-6 z-10 relative">
+    <footer className="bg-surface-container-low border-t border-outline-variant flex flex-col md:flex-row justify-between items-center w-full px-6 md:px-16 py-10 pb-15 gap-6 z-10 relative">
       <div className="flex flex-col items-center md:items-start gap-1">
         <div className="font-display text-xl sm:text-2xl font-bold text-on-surface uppercase tracking-tighter select-none">
-          shubham-404
+          &copy;2026 shubham-404
         </div>
-        <p className="font-display text-[10px] uppercase tracking-widest text-on-surface-variant leading-none">
-          © 2024 shubham-404. ENGINEERED WITH PRECISION.
+        <p className="font-display text-[14px] uppercase tracking-widest text-on-surface-variant leading-none">
+          ENGINEERED WITH PRECISION.
         </p>
       </div>
       
@@ -36,7 +37,7 @@ export default function Footer({ onChangeView }: FooterProps) {
         </Tooltip>
       )}
 
-      <ul className="flex gap-6 font-display text-xs uppercase tracking-widest font-semibold">
+      <ul className="flex flex-wrap justify-center gap-6 font-display text-xs uppercase tracking-widest font-semibold">
         {socialLinks.map((link) => (
           <li key={link.label}>
             <Tooltip content={`Visit ${link.label}`} position="top">

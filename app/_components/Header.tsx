@@ -95,14 +95,13 @@ const isSelected = pathname === item.href;            return (
               <span className="font-display text-2xl font-bold tracking-tighter text-on-surface uppercase">
                 shubham-404
               </span>
-              <Link
-                href="#"
+              <button
                 onClick={() => setMobileMenuOpen(false)}
                 className="p-2 text-on-surface hover:text-primary transition-colors"
                 aria-label="Close navigation menu"
               >
                 <span className="material-symbols-outlined text-3xl">close</span>
-              </Link>
+              </button>
             </div>
 
             {/* Main Links */}

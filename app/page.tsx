@@ -101,7 +101,7 @@ export default function HomeView({ onChangeView }: HomeViewProps) {
 
               <div className="flex justify-between font-mono text-[10px] text-on-surface-variant uppercase tracking-tighter pt-1 select-none">
                 <span>System Active</span>
-                <span>EST. 2024</span>
+                <span>EST. 2026</span>
               </div>
             </div>
           </motion.section>
@@ -159,7 +159,7 @@ export default function HomeView({ onChangeView }: HomeViewProps) {
           <h2 className="font-display text-3xl font-bold uppercase tracking-tight text-on-surface">
             Core Services
           </h2>
-          <Link href="/services"   
+          <Link href="/services"
             className="font-display text-xs font-bold uppercase tracking-widest text-primary hover:underline cursor-pointer flex items-center gap-1.5"
           >
             <span>View All Services</span>
@@ -169,7 +169,7 @@ export default function HomeView({ onChangeView }: HomeViewProps) {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-outline-variant border border-outline-variant">
           {services.map((svc, idx) => (
-            <Link href={`/services`}
+            <Link href={`/services`} key={idx}
               className="bg-surface p-8 hover:bg-surface-container transition-colors duration-500 cursor-pointer flex flex-col justify-between h-56 group"
             >
               <div className="flex justify-between items-start">

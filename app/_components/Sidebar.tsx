@@ -37,7 +37,7 @@ export default function Sidebar() {
   };
 
   return (
-    <aside className="hidden lg:flex flex-col justify-between w-80 border-r border-outline-variant bg-surface-container-low h-[82vh] max-h-[82vh] p-8 fixed left-0 top-24 overflow-y-auto z-20 scrollbar-thin">
+    <aside className="hidden lg:flex flex-col justify-between w-80 border-r border-outline-variant bg-surface-container-low h-[90svh] max-h-[90svh] p-8 fixed left-0 top-20 overflow-y-auto z-20 scrollbar-thin">
       {/* Top Part: Branding Status */}
       <div className="space-y-8">
         <div>
