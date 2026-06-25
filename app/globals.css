@@ -39,6 +39,10 @@
   --font-sans: "Inter", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Material symbols override */
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
