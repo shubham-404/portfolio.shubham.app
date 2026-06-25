@@ -85,7 +85,7 @@ export default function Loader({ onComplete }: LoaderProps) {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="font-display text-xs sm:text-sm tracking-[0.4em] uppercase text-on-surface-variant text-center"
           >
-            Engineering &amp; Curation
+            Crafting Code with Purpose.
           </motion.p>
         </div>
       </div>
@@ -118,7 +118,7 @@ export default function Loader({ onComplete }: LoaderProps) {
           <span>Core.Init(Process_Secure_Buffers)</span>
           <span>Assets_Loaded: {progress === 100 ? 'TRUE' : 'FALSE'}</span>
           <span>Thread_Pool: 0xFD42A</span>
-          <span>Est. 2024</span>
+          <span>Since 2025</span>
         </div>
       </div>
     </div>

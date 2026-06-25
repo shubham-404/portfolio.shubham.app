@@ -39,19 +39,19 @@ export default function Sidebar() {
   return (
     <aside className="hidden lg:flex flex-col justify-between w-80 border-r border-outline-variant bg-surface-container-low h-[90svh] max-h-[90svh] p-8 fixed left-0 top-20 overflow-y-auto z-20 scrollbar-thin">
       {/* Top Part: Branding Status */}
-      <div className="space-y-8">
+      <div className="space-y-8 grid">
         <div>
           <span className="font-display text-xs uppercase text-outline tracking-[0.2em] block mb-2">SYSTEM PARAMETER</span>
           <div className="flex justify-between items-center bg-surface p-4 border border-outline-variant">
-  <span className="font-sans text-xs font-semibold text-on-surface">
-    STATUS
-  </span>
+            <span className="font-sans text-xs font-semibold text-on-surface">
+              STATUS
+            </span>
 
-  <span className="font-sans text-xs font-bold text-primary flex items-center gap-1">
-    <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
-    ONLINE
-  </span>
-</div>
+            <span className="font-sans text-xs font-bold text-primary flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+              ONLINE
+            </span>
+          </div>
         </div>
 
         {/* Live ticking clock */}
@@ -88,7 +88,7 @@ export default function Sidebar() {
 
       {/* Middle Part: Quick Links / Section Overview */}
       <div className="pt-3">
-        <span className="font-display text-xs uppercase text-outline tracking-[0.2em] block">CURATED NAVIGATION</span>
+        <span className="font-display text-xs uppercase text-outline tracking-[0.2em] block mb-2">CURATED NAVIGATION</span>
         <div className="flex flex-col border border-outline-variant bg-surface divide-y divide-outline-variant font-display text-xs uppercase tracking-widest">
           {navItems.map((item) => {
             const isActive = pathname === item.href;
@@ -114,10 +114,10 @@ export default function Sidebar() {
       {/* Bottom Part: Academic Footprint */}
       <div className="pt-6 border-t border-outline-variant">
         <p className="font-display text-xs font-bold uppercase tracking-widest text-on-surface mb-1">
-          NIE MYSURU
+          Who Am I?
         </p>
         <p className="font-sans text-[11px] text-on-surface-variant leading-normal">
-          B.E. Computer Science Student <br></br> Operations Lead @Anveshan.
+          Freelancer <br></br> AIML Enthusiast <br></br> Open Source Contributor
         </p>
       </div>
     </aside>

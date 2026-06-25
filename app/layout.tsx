@@ -6,7 +6,7 @@ import "./globals.css";
 import Header from "./_components/Header";
 import Sidebar from "./_components/Sidebar";
 import Footer from "./_components/Footer";
-import ScrollToTop from "./_components/ScrollToTop";
+// import ScrollToTop from "./_components/ScrollToTop";
 import Loader from "./_components/Loader";
 import AppLoader from "./_components/AppLoader";
 
@@ -28,7 +28,7 @@ export default function RootLayout({
           <div className="grid-overlay fixed inset-0 pointer-events-none opacity-25 z-0" />
 
           <Header />
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
 
           <div className="flex-grow flex pt-20 relative z-10">
             <Sidebar />
