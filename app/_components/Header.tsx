@@ -6,20 +6,20 @@ import Link from 'next/link';
 import Tooltip from './Tooltip';
 
 
-export default function Header()  {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-const pathname = usePathname();
-const navItems = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Services", href: "/services" },
-  { label: "Projects", href: "/projects" },
-];
+  const pathname = usePathname();
+  const navItems = [
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Services", href: "/services" },
+    { label: "Projects", href: "/projects" },
+  ];
 
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-40 bg-surface/90 backdrop-blur-md border-b border-outline-variant h-20 flex justify-between items-center px-6 md:px-16 transition-all duration-300">
-        <Link href="/" 
+        <Link href="/"
           className="font-display text-2xl sm:text-3xl font-bold tracking-tighter text-on-surface uppercase hover:opacity-80 transition-opacity select-none"
         >
           shubham-404
@@ -28,24 +28,28 @@ const navItems = [
         {/* Desktop Web Navigation */}
         <nav className="hidden md:flex items-center gap-8 font-display text-sm font-semibold uppercase tracking-widest">
           {navItems.map((item) => {
-const isSelected = pathname === item.href;            return (
-              <Tooltip key={item.href} content={`Navigate to ${item.label}`} position="bottom">
-                <Link
-                  href={item.href}
-                  className={`relative pb-1 cursor-pointer transition-colors duration-300 ${
-                    isSelected ? 'text-primary' : 'text-on-surface-variant hover:text-primary'
-                  }`}
-                >
-                  {item.label}
+            const isSelected = pathname === item.href;
+
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="relative pb-1"
+              >
+                {item.label}
+
+                <AnimatePresence mode="wait">
                   {isSelected && (
-                    <motion.div 
-                      layoutId="nav-underline"
-                      className="absolute left-0 bottom-0 right-0 h-0.5 bg-primary"
-                      transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                    <motion.div
+                      key={pathname}
+                      initial={{ scaleX: 0 }}
+                      animate={{ scaleX: 1 }}
+                      exit={{ scaleX: 0 }}
+                      className="absolute left-0 right-0 bottom-0 h-0.5 bg-primary origin-left"
                     />
                   )}
-                </Link>
-              </Tooltip>
+                </AnimatePresence>
+              </Link>
             );
           })}
         </nav>
@@ -55,11 +59,10 @@ const isSelected = pathname === item.href;            return (
           <Tooltip content="Reach out for custom collaborations" position="bottom">
             <Link
               href="/hire-me"
-              className={`font-display text-sm font-semibold uppercase tracking-widest px-6 py-3 transition-all duration-300 ${
-                pathname === '/hire-me'
-                  ? 'bg-primary text-surface'
-                  : 'bg-secondary text-on-secondary hover:bg-primary'
-              }`}
+              className={`font-display text-sm font-semibold uppercase tracking-widest px-6 py-3 transition-all duration-300 ${pathname === '/hire-me'
+                ? 'bg-primary text-surface'
+                : 'bg-secondary text-on-secondary hover:bg-primary'
+                }`}
             >
               Hire Me
             </Link>
@@ -83,7 +86,7 @@ const isSelected = pathname === item.href;            return (
       {/* Mobile Drawer Overlay */}
       <AnimatePresence>
         {mobileMenuOpen && (
-          <motion.nav 
+          <motion.nav
             initial={{ x: '100%' }}
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
@@ -117,9 +120,8 @@ const isSelected = pathname === item.href;            return (
                     onClick={() => {
                       setMobileMenuOpen(false);
                     }}
-                    className={`text-left font-display text-4xl sm:text-5xl uppercase tracking-tight font-bold w-fit transition-colors ${
-                      isSelected ? 'text-primary' : 'text-on-surface hover:text-primary'
-                    }`}
+                    className={`text-left font-display text-4xl sm:text-5xl uppercase tracking-tight font-bold w-fit transition-colors ${isSelected ? 'text-primary' : 'text-on-surface hover:text-primary'
+                      }`}
                   >
                     {item.label}
                   </motion.button>
